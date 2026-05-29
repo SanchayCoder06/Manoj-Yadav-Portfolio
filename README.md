@@ -1,16 +1,175 @@
-# React + Vite
+# 🎵 Lyricist Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and cinematic full-stack portfolio website designed for a lyricist to showcase songs, albums, poetry, achievements, awards, and creative journey through an immersive digital experience.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
 
-## React Compiler
+- 🎼 Beautiful lyricist-themed UI
+- 🌙 Modern cinematic design
+- 📱 Fully responsive layout
+- 🎵 Songs & albums showcase
+- ✍️ Poetry and lyrical works display
+- 🏆 Awards and achievements section
+- 🎬 Smooth animations and transitions
+- 🔐 Backend integration with Express.js
+- 🗄️ MongoDB database support
+- 🚀 Fast and optimized performance
+- 🌐 Deployed using Vercel
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Frontend
+- React.js
+- JavaScript
+- HTML5
+- CSS3
+
+### Backend
+- Node.js
+- Express.js
+
+### Database
+- MongoDB
+
+### Deployment
+- Vercel
+
+---
+
+## 📸 Preview
+
+Add screenshots or preview images here.
+
+```text
+assets/preview.png
+```
+
+---
+
+## 🚀 Live Demo
+
+Add your deployed website link here.
+
+```text
+https://yourwebsite.vercel.app
+```
+
+---
+
+# 📂 Project Structure
+
+```text
+project-root/
+│
+├── client/
+│   ├── src/
+│   ├── public/
+│   └── package.json
+│
+├── server/
+│   ├── routes/
+│   ├── models/
+│   ├── controllers/
+│   ├── config/
+│   └── server.js
+│
+└── README.md
+```
+
+---
+
+## ⚙️ Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/your-repository-name.git
+```
+
+Go to project directory:
+
+```bash
+cd your-repository-name
+```
+
+---
+
+## 📦 Install Frontend Dependencies
+
+```bash
+cd client
+npm install
+```
+
+---
+
+## 📦 Install Backend Dependencies
+
+```bash
+cd ../server
+npm install
+```
+
+---
+
+## ▶️ Run Frontend
+
+```bash
+npm run dev
+```
+
+---
+
+## ▶️ Run Backend
+
+```bash
+node server.js
+```
+
+---
+
+## 🔑 Environment Variables
+
+Create a `.env` file inside the server folder.
+
+```env
+MONGO_URI=your_mongodb_connection_string
+PORT=5000
+```
+
+---
+
+## 🗄️ MongoDB Features
+
+- Store songs and lyrics
+- Manage albums and projects
+- Dynamic content management
+- Backend API integration
+
+---
+
+## 🌟 Inspiration
+
+This project was inspired by cinematic storytelling, musical artistry, and modern creative portfolios.
+
+---
+
+## 🤝 Contributing
+
+Contributions, ideas, and suggestions are welcome.
+
+---
+
+## 📄 License
+
+This project is open source and available under the MIT License.
+
+---
+
+## 👨‍💻 Author
+
+Created with passion for music, storytelling, and modern web development.
